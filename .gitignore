@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Databricks
+.databricks/
+databricks.yml.local
+
+# Secrets
+.env
+*.env
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# MLflow Local Files
+mlruns/
+mlartifacts/
+
+# Models
+models/
+artifacts/
+*.joblib
+*.pkl
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
